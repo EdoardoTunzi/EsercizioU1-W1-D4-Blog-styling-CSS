@@ -94,6 +94,29 @@ iframe {
 
 /* TABELLE */
 
+table {
+  border-collapse: collapse;
+}
+th {
+  background-color: #4568c0;
+  color: white;
+  padding: 0.9em;
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
 /* FORM */
 
 section {
